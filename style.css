@@ -1,0 +1,41 @@
+html {
+  background-color: rgb(230, 226, 226);
+}
+body {
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+}
+header img {
+  width: 40%;
+  margin: 10px;
+}
+#menulinks {
+  display: none;
+}
+.icon {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color: grey;
+}
+section {
+  margin-left: 20px;
+}
+h1 {
+  font-weight: bold;
+}
+h4 {
+  text-transform: uppercase;
+}
+button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: rgb(221, 118, 157);
+  /* border-image-source: linear-gradient(to right,red, yellow); */
+}

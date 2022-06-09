@@ -1,6 +1,3 @@
-/* html {
-  background-color: rgb(230, 226, 226);
-} */
 body {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -56,7 +53,7 @@ p {
 }
 .secondsection {
   background-image: url(assets/background.svg);
-  background-size: cover;
+  object-fit: contain;
   margin-left: 0;
   margin-top: 50px;
 }
@@ -76,11 +73,12 @@ p {
 .thirdsection {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+ 
 }
 .thirdsection img {
   width: 100px;
   padding: 10px;
+  
 }
 .box {
   background-color: rgb(234, 229, 229);
@@ -197,8 +195,7 @@ h1{
 }
 .thirdsection{
   flex-direction: row;
-  justify-content: flex-start;
-  gap:100px;
+  justify-content: space-around;
 }
 #companies{
   display: flex;
@@ -214,7 +211,7 @@ h1{
 #box{
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: space-around;
 }
 .box{
   width: 200px;
@@ -225,7 +222,10 @@ h1{
 }
 #endingmeniu{
   display: flex;
-  
+  gap:10px;
+}
+#endingmeniu a{
+  font-size: 12px;
 }
 #meniu {
   padding: 0;
@@ -239,6 +239,9 @@ footer{
 .footer{
   display: flex;
   margin-right: 20px;
+}
+.sixthsection{
+  gap:0px;
 }
 
 }

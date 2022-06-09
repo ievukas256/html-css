@@ -1,12 +1,9 @@
-/* html {
-  background-color: rgb(230, 226, 226);
-} */
 body {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
-  position: relative;
+  
 }
 header img {
   width: 40%;
@@ -50,11 +47,13 @@ p {
   display: flex;
 }
 .firstsection img {
-  width: 400px;
+  /* width: 400px; */
+  max-width: 100%;
+  height: auto;
 }
 .secondsection {
   background-image: url(assets/background.svg);
-  background-size: cover, contain;
+  object-fit: contain;
   margin-left: 0;
   margin-top: 50px;
 }
@@ -74,17 +73,19 @@ p {
 .thirdsection {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+ 
 }
 .thirdsection img {
   width: 100px;
   padding: 10px;
+  
 }
 .box {
   background-color: rgb(234, 229, 229);
   border-radius: 15px;
   width: 300px;
   margin-top: 10px;
+  
 }
 .box img {
   width: 100%;
@@ -92,6 +93,7 @@ p {
 .container {
   display: flex;
   justify-content: space-between;
+  margin: 10px;
 }
 .container img {
   width: 10px;
@@ -140,4 +142,106 @@ footer {
   margin-top: 30px;
   padding-bottom: 50px;
   margin-left: 20px;
+}
+#image{
+  display: none;
+}
+.footer{
+  display: none;
+}
+@media screen and (min-width:400px){
+  html{
+    background-color: #dbd8d8;
+  }
+  body{
+    box-shadow: 5px 10px 8px #888888;
+    margin: 20px;
+  }
+  header img {
+    width: 100%;
+    margin: 10px;
+  }
+  #menulinks {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+  }
+  #menulinks a{
+    text-decoration: none;
+  }
+  #menulinks :last-child{
+    color: rgb(228, 79, 166);
+  }
+  .icon{
+    display: none;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+h1{
+  font-size: 50px;
+}
+.firstsection img {
+  width: 600px;
+}
+#header{
+  margin-top: 100px;
+}
+.secondsection{
+  margin: 30px;
+  border-radius: 15px;
+}
+.thirdsection{
+  flex-direction: row;
+  justify-content: space-around;
+}
+#companies{
+  display: flex;
+  gap:100px;
+}
+#image{
+  display: block;
+}
+.fourthsection{
+  display: flex;
+  flex-direction: column;
+}
+#box{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.box{
+  width: 200px;
+}
+#ending{
+  display: flex;
+  justify-content: space-between;
+}
+#endingmeniu{
+  display: flex;
+  gap:10px;
+}
+#endingmeniu a{
+  font-size: 12px;
+}
+#meniu {
+  padding: 0;
+  margin-right: 30px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer{
+  display: flex;
+  margin-right: 20px;
+}
+.sixthsection{
+  gap:0px;
+}
+
 }

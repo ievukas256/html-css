@@ -6,7 +6,7 @@ body {
   border-radius: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
-  position: relative;
+  
 }
 header img {
   width: 40%;
@@ -50,11 +50,13 @@ p {
   display: flex;
 }
 .firstsection img {
-  width: 400px;
+  /* width: 400px; */
+  max-width: 100%;
+  height: auto;
 }
 .secondsection {
   background-image: url(assets/background.svg);
-  background-size: cover, contain;
+  background-size: cover;
   margin-left: 0;
   margin-top: 50px;
 }
@@ -85,6 +87,7 @@ p {
   border-radius: 15px;
   width: 300px;
   margin-top: 10px;
+  
 }
 .box img {
   width: 100%;
@@ -92,6 +95,7 @@ p {
 .container {
   display: flex;
   justify-content: space-between;
+  margin: 10px;
 }
 .container img {
   width: 10px;
@@ -140,4 +144,101 @@ footer {
   margin-top: 30px;
   padding-bottom: 50px;
   margin-left: 20px;
+}
+#image{
+  display: none;
+}
+.footer{
+  display: none;
+}
+@media screen and (min-width:400px){
+  html{
+    background-color: #dbd8d8;
+  }
+  body{
+    box-shadow: 5px 10px 8px #888888;
+    margin: 20px;
+  }
+  header img {
+    width: 100%;
+    margin: 10px;
+  }
+  #menulinks {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+  }
+  #menulinks a{
+    text-decoration: none;
+  }
+  #menulinks :last-child{
+    color: rgb(228, 79, 166);
+  }
+  .icon{
+    display: none;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+h1{
+  font-size: 50px;
+}
+.firstsection img {
+  width: 600px;
+}
+#header{
+  margin-top: 100px;
+}
+.secondsection{
+  margin: 30px;
+  border-radius: 15px;
+}
+.thirdsection{
+  flex-direction: row;
+  justify-content: flex-start;
+  gap:100px;
+}
+#companies{
+  display: flex;
+  gap:100px;
+}
+#image{
+  display: block;
+}
+.fourthsection{
+  display: flex;
+  flex-direction: column;
+}
+#box{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.box{
+  width: 200px;
+}
+#ending{
+  display: flex;
+  justify-content: space-between;
+}
+#endingmeniu{
+  display: flex;
+  
+}
+#meniu {
+  padding: 0;
+  margin-right: 30px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer{
+  display: flex;
+  margin-right: 20px;
+}
+
 }

@@ -3,15 +3,17 @@ body {
   border-radius: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
-  
 }
+
 header img {
   width: 40%;
   margin: 10px;
 }
+
 #menulinks {
   display: none;
 }
+
 .icon {
   display: block;
   position: absolute;
@@ -19,19 +21,24 @@ header img {
   top: 15px;
   color: grey;
 }
+
 section {
   margin-left: 20px;
   margin-top: 20px;
 }
+
 h1 {
   font-weight: bold;
 }
+
 h3 {
   font-size: xx-large;
 }
+
 h4 {
   text-transform: uppercase;
 }
+
 button {
   width: 150px;
   padding: 20px;
@@ -40,74 +47,89 @@ button {
   border-color: rgb(221, 118, 157);
   /* border-image-source: linear-gradient(to right,red, yellow); */
 }
+
 p {
   color: rgb(121, 118, 118);
 }
+
 .firstsection {
   display: flex;
 }
+
 .firstsection img {
   /* width: 400px; */
   max-width: 100%;
   height: auto;
 }
+
 .secondsection {
   background-image: url(assets/background.svg);
   object-fit: contain;
   margin-left: 0;
   margin-top: 50px;
 }
+
 .secondsection p {
   color: black;
   margin: 20px;
 }
+
 .secondsection h3 {
   font-size: xx-large;
   margin-left: 20px;
   margin-top: 50px;
 }
+
 .secondsection div {
   padding-top: 30px;
   padding-bottom: 5px;
 }
+
 .thirdsection {
   display: flex;
   flex-direction: column;
- 
+
 }
+
 .thirdsection img {
   width: 100px;
   padding: 10px;
-  
 }
+
 .box {
   background-color: rgb(234, 229, 229);
   border-radius: 15px;
   width: 300px;
   margin-top: 10px;
-  
 }
+
 .box img {
   width: 100%;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
   margin: 10px;
 }
+
 .container img {
   width: 10px;
 }
+
 .gloop {
   color: chocolate;
   font-size: 10px;
 }
+
 .bid {
   font-size: 10px;
 }
+
 .black {
   color: black;
 }
+
 .fifthsection {
   display: flex;
   border-top: 2px solid rgb(229, 226, 226);
@@ -115,133 +137,165 @@ p {
   margin-top: 70px;
   margin-bottom: 70px;
 }
+
 .fa-brands {
   color: rgb(158, 156, 156);
   margin-right: 10px;
 }
+
 .sixthsection {
   display: flex;
   gap: 50px;
 }
+
 .sixthsection label {
   color: rgb(44, 44, 44);
   font-size: 15px;
 }
+
 #meniu {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 #meniu a {
   text-decoration: none;
   color: grey;
   font-size: 17px;
   margin-top: 20px;
 }
+
 footer {
   color: rgb(197, 193, 193);
   margin-top: 30px;
   padding-bottom: 50px;
   margin-left: 20px;
 }
-#image{
+
+#image {
   display: none;
 }
-.footer{
+
+.footer {
   display: none;
 }
-@media screen and (min-width:400px){
-  html{
+
+@media screen and (min-width:400px) {
+  html {
     background-color: #dbd8d8;
   }
-  body{
+
+  body {
     box-shadow: 5px 10px 8px #888888;
     margin: 20px;
   }
+
   header img {
     width: 100%;
     margin: 10px;
   }
+
   #menulinks {
     display: flex;
     text-decoration: none;
     gap: 10px;
   }
-  #menulinks a{
+
+  #menulinks a {
     text-decoration: none;
   }
-  #menulinks :last-child{
+
+  #menulinks :last-child {
     color: rgb(228, 79, 166);
   }
-  .icon{
+
+  .icon {
     display: none;
   }
-  header{
+
+  header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
   }
-h1{
-  font-size: 50px;
-}
-.firstsection img {
-  width: 600px;
-}
-#header{
-  margin-top: 100px;
-}
-.secondsection{
-  margin: 30px;
-  border-radius: 15px;
-}
-.thirdsection{
-  flex-direction: row;
-  justify-content: space-around;
-}
-#companies{
-  display: flex;
-  gap:100px;
-}
-#image{
-  display: block;
-}
-.fourthsection{
-  display: flex;
-  flex-direction: column;
-}
-#box{
-  display: flex;
-  gap: 20px;
-  justify-content: space-around;
-}
-.box{
-  width: 200px;
-}
-#ending{
-  display: flex;
-  justify-content: space-between;
-}
-#endingmeniu{
-  display: flex;
-  gap:10px;
-}
-#endingmeniu a{
-  font-size: 12px;
-}
-#meniu {
-  padding: 0;
-  margin-right: 30px;
-}
-footer{
-  display: flex;
-  justify-content: space-between;
-  
-}
-.footer{
-  display: flex;
-  margin-right: 20px;
-}
-.sixthsection{
-  gap:0px;
-}
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .firstsection img {
+    width: 600px;
+  }
+
+  #header {
+    margin-top: 100px;
+  }
+
+  .secondsection {
+    margin: 30px;
+    border-radius: 15px;
+  }
+
+  .thirdsection {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #companies {
+    display: flex;
+    gap: 100px;
+  }
+
+  #image {
+    display: block;
+  }
+
+  .fourthsection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #box {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+
+  .box {
+    width: 200px;
+  }
+
+  #ending {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #endingmeniu {
+    display: flex;
+    gap: 10px;
+  }
+
+  #endingmeniu a {
+    font-size: 12px;
+  }
+
+  #meniu {
+    padding: 0;
+    margin-right: 30px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .sixthsection {
+    gap: 0px;
+  }
 
 }
